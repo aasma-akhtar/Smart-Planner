@@ -88,3 +88,74 @@ Tools
 Vite
 VS Code
 GitHub
+📂 Project Structure
+wanderplan/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Itinerary.jsx
+│   │   ├── PackingList.jsx
+│   │   ├── Weather.jsx
+│   │
+│   ├── pages/
+│   │   ├── Login.jsx
+│   │   ├── Signup.jsx
+│   │   ├── TripSetup.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│
+├── public/
+├── package.json
+└── README.md
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/yourusername/wanderplan.git
+2️⃣ Navigate to the Project Folder
+cd wanderplan
+3️⃣ Install Dependencies
+npm install
+4️⃣ Run the Development Server
+npm run dev
+
+The application will start at:
+
+http://localhost:5173
+📸 Screenshots
+
+Add screenshots here when uploading to GitHub.
+
+Example:
+
+/screenshots
+    login.png
+    signup.png
+    dashboard.png
+    itinerary.png
+    packing.png
+    weather.png
+🎯 Future Improvements
+
+Possible future enhancements:
+
+Backend integration with Node.js / Firebase
+User data storage
+Google Maps integration
+Budget tracking
+AI-based travel recommendations
+Mobile responsive improvements
+📚 Learning Outcomes
+
+This project demonstrates:
+
+React component architecture
+State management
+UI design principles
+Modular frontend development
+Travel planning workflow design
+👩‍💻 Author
+
+Aasma Akhtar
+B.Tech Computer Science Student
