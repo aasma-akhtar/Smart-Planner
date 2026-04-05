@@ -1,16 +1,90 @@
-# React + Vite
+✈️ WanderPlan – Smart Travel Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WanderPlan is a React-based travel planning web application that helps users organize their trips efficiently.
+It combines trip planning, itinerary management, packing lists, and weather forecasting into one simple and modern interface.
 
-Currently, two official plugins are available:
+The application allows users to create an account, log in, plan trips, manage daily activities, track packing items, and view weather forecasts for their destination.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Features
+🔐 User Authentication
+User Signup to create a new account
+Secure Login system
+Logout functionality
+Personalized trip planning experience
+🌍 Trip Planning
+Enter travel destination
+Select start and end dates
+Choose number of travelers
+Quick destination suggestions
+📊 Dashboard
 
-## React Compiler
+Provides an overview of the trip including:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Total days of trip
+Number of travelers
+Days remaining before the trip
+Activities added
+Packing progress
+📅 Itinerary Planner
 
-## Expanding the ESLint configuration
+Users can organize daily travel activities.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Features:
+
+Add activity name
+Select activity time
+Choose category (e.g., sightseeing)
+Add notes
+Suggestions for popular places
+🎒 Packing List
+
+Helps users manage items needed for travel.
+
+Features:
+
+Add custom items
+Quick add suggestions
+Mark items as packed/unpacked
+Filter items
+
+Example quick items:
+
+Passport
+Travel insurance
+Charger
+Camera
+First aid kit
+🌦 Weather Forecast
+
+Displays 5-day weather forecast for the selected destination.
+
+Includes:
+
+Temperature
+Weather condition
+Rain probability
+Wind speed
+
+Also provides packing tips based on weather.
+
+🖥 Screens Included
+
+The application includes the following pages:
+
+Login Page
+Signup Page
+Trip Setup Page
+Dashboard
+Itinerary Planner
+Packing List
+Weather Forecast
+🛠 Tech Stack
+Frontend
+React.js
+JavaScript (ES6)
+HTML5
+CSS3
+Tools
+Vite
+VS Code
+GitHub
